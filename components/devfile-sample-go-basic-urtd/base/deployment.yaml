@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-urtd
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jephilli-devfile-sample-go-basic-urtd
+      - image: quay.io/redhat-appstudio/user-workload@sha256:6276ce968664114878adf6157405a858d7d191f44642d6335d3679baa8c5116c
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
